@@ -73,3 +73,9 @@ qa{
 	color: #004a41;
 }
 ```
+
+### Education and work experience
+I finished my first year at **BSU, MMF**. I have been learning web programming for one year and made a [small resume with my works](https://shabusovladislav.github.io/Resume/)
+
+### English level
+I believe that my english level is about **A2**. At the university I had the maximum mark (ten).
