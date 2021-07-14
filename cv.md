@@ -1,7 +1,7 @@
 # Vladislav Shabusov 
 
 ### Contacts
-Email: *vladshabusov66@gmail.com*
+Email: *vladshabusov66@gmail.com*  
 Phone: *+375 (29) 942-24-44*
 
 ### About myself
@@ -48,30 +48,6 @@ My knowledge base not so big, but I know some programming languages:
 				<a href="works/pigfly/index.html"><strong>Сайт Pigfly</strong></a>
 			</figcaption>
 		</figure>
-```
-3. CSS
-```css
-qa{
-	display: grid;
-	grid-template-areas:
-		"questions answers";
-		grid-template-columns: 270px 1fr;
-		grid-column-gap: 20px;
-}
-
-#questions {
-	grid-area: questions;
-	margin: 30px 0 0 55px;
-	height: 300px;
-	width: 215px;
-}
-
-.in1 {
-	text-align: right;
-	font-weight: 500;
-	margin-bottom: 15px;
-	color: #004a41;
-}
 ```
 
 ### Education and work experience
