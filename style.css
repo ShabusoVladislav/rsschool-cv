@@ -16,6 +16,9 @@ body {
 
 hr {
     border: 1px solid white;
+    height: 1px;
+    color: white;
+    background-color: white;
     margin: 16px auto;
 }
 
