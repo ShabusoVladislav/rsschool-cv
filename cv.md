@@ -2,8 +2,8 @@
 
 ### Contacts
 Email: *vladshabusov66@gmail.com*  
-Phone: *+375 (29) 942-24-44*
-[VK](https://vk.com/shiny_phoenix)
+Phone: *+375 (29) 942-24-44*  
+[VK](https://vk.com/shiny_phoenix)  
 [Linkedin](https://www.linkedin.com/in/vladislav-shabusov-645b69228/)
 
 ### About myself
