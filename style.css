@@ -1,0 +1,360 @@
+/* CSS Document */
+
+* {
+    box-sizing: border-box;
+  }
+
+html {
+    scroll-behavior: smooth; 
+}
+
+body {
+    color: black;
+    font-size: 105%;
+    font-weight: 200;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.container {
+    max-width: 1280px;
+    margin: 0 auto;
+    box-shadow: 0px 0px 3px 0px #000000;
+}
+
+.header {
+    background-color: #F1F0EC;
+    margin: 0;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+    padding: 10px 0;
+}
+
+.nav-link {
+    padding: 0 20px;
+    line-height: 50px;
+    text-decoration: none;
+    font-family: "Montserrat";
+    font-weight: 400;
+    font-size: 1.5em;
+    color: black;
+    white-space: nowrap;
+    transition: 0.3s;
+    width: 100px;
+    position: relative;
+}
+
+.nav-link:hover {
+    color: #6667AB;
+}
+
+.nav-link::after {
+    display: block;
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 3px;
+    margin-left: 20px;
+    margin-top: -10px;
+    background-color: #6667AB;
+    transition: 0.3s ease-in-out;
+}
+
+
+.nav-link:hover::after {
+    width: calc(100% - 40px);
+}
+
+.main {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.aside {
+    max-width: max-content;
+    background-color: #F1F0EC;
+}
+
+.profile {
+    max-width: 510px;
+    padding-bottom: 40px;
+    background-color: white;
+}
+
+.my-name {
+    font-family: "Montserrat";
+    font-weight: 600;
+    font-size: 2.5em;
+    margin: 20px 0 0 30px;
+}
+
+.my-photo {
+    max-height: 510px;
+}
+
+.my-profession {
+    font-family: "Montserrat";
+    font-weight: 400;
+    font-size: 1.5em;
+    margin: 5px 0 0 30px;
+}
+
+.contacts, 
+.education,
+.english {
+    margin: 0;
+    background-color: #F1F0EC;
+    padding-bottom: 40px;
+}
+
+.my-contacts,
+.my-education,
+.my-english {
+    text-align: center;
+    font-family: "Montserrat";
+    font-weight: 400;
+    font-size: 1.5em;
+    margin: 0;
+}
+
+.my-contacts {
+    padding-top: 20px;
+}
+
+.my-contacts > span,
+.my-education > span,
+.my-english > span {
+    padding: 5px 20px;
+    background-color: #DBD5D1;
+}
+
+.nav-contacts,
+.nav-education,
+.nav-skills {
+    font-family: "Roboto";
+    font-weight: 400;
+    list-style: none;
+    margin-left: 30px;
+    margin-top: 20px;
+    padding: 0;
+}
+
+.nav-contacts > li,
+.nav-education > li,
+.nav-skills > li {
+    line-height: 25px;
+}
+
+.nav-contacts > li > a,
+.nav-education > li > a {
+    text-decoration: none;
+    color: black;
+}
+
+.nav-contacts > li > a:hover,
+.nav-education > li > a:hover {
+    color: #6667AB;
+}
+
+.nav-education {
+    list-style: circle;
+}
+
+.english > p {
+    font-family: "Roboto";
+    font-weight: 400;
+    margin-left: 30px;
+    margin-top: 20px;
+    padding: 0;
+}
+
+.right-column {
+    max-width: calc(1280px - 510px);
+}
+
+.summary,
+.skills,
+.code,
+.projects {
+    padding-bottom: 40px;
+}
+
+.my-summary,
+.my-skills,
+.my-code,
+.my-projects {
+    font-family: "Montserrat";
+    font-weight: 400;
+    font-size: 1.5em;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+.hr{
+    margin-left: 30px;
+    margin-bottom: 20px;
+    margin-top: -15px;
+    padding-right: 30px;
+    max-width: calc(1280px - 510px - 30px - 30px);
+    height: 3px;
+    border: solid 1px #6667AB;
+    background-color: #6667AB;
+}
+
+.summary > p {
+    font-family: "Roboto";
+    font-weight: 400;
+    padding: 0 30px;
+
+}
+
+.my-skills,
+.my-code {
+    margin-top: 0;
+}
+
+.code-example {
+    display: block;
+    overflow-x: auto; 
+    min-width: 70%;
+    max-width: 74%;
+    padding: 0.5em;
+    background: #F1F0EC;
+    margin: 0 30px;
+}
+
+.div-projects {
+    margin: 20px 30px 0;
+}
+
+.project-object {
+    margin-bottom: 40px;
+}
+
+.project-object > a {
+    text-decoration: none;
+    color: black;
+}
+
+.project-object > a > img {
+    display: block;
+    box-shadow: 0px 0px 3px 0px #000000;
+    transition: 0.3s;
+    width: 80%;
+    height: 80%;
+}
+
+.project-object:hover img {
+    box-shadow: 0px 0px 7px 0px #000000;
+    transform: scale(1.01);
+}
+
+.project-header {
+    font-family: "Montserrat";
+    font-weight: 500;
+    font-size: 1.35em;
+    margin-top: 20px;
+    position: relative;
+}
+
+.project-header::after {
+    display: block;
+    content: "";
+    position: absolute;
+    width: 30%;
+    height: 3px;
+    background-color: #6667AB;
+    transition: 0.3s ease-in-out;
+}
+
+.project-object:hover ::after {
+    width: 80%;
+}
+
+.div-projects > div:last-of-type{
+    margin-bottom: 0;
+}
+
+.div-projects > .project-object:last-child > a > h3 {
+    margin-bottom: 0;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    background-color: #DBD5D1;
+    align-items: center;
+}
+
+.github {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    text-decoration: none;
+    font-family: "Roboto";
+    font-weight: 400;
+    color: black;
+    position: relative;
+}
+
+.github > p::after {
+    display: block;
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 3px;
+    margin-left: 5px;
+    background-color: #6667AB;
+    transition: 0.3s ease-in-out;
+}
+
+.github:hover > p::after {
+    width: calc(100% - 34px);
+}
+
+.github:hover {
+    color: #6667AB;
+}
+
+footer > span {
+    font-family: "Roboto";
+    font-weight: 400;
+}
+
+.rsschool {
+    max-width: 90px;
+}
+
+@media (max-width: 1055px) {
+    .code-example {
+        width: 90%;
+        margin-right: 30px;
+        max-width: 90%;
+    }
+
+    .project-object > a > img {
+        width: 90%;
+        height: 90%;
+    }
+}
+
+@media (max-width: 768px) {
+    .section {
+      width: 100%;
+    }
+
+    main {
+        flex-direction: column;
+        align-items: center;
+    }
+  }
